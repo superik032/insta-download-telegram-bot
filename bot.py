@@ -3,7 +3,7 @@ from config import import_conf
 from telebot import types
 from parse_insta import main, delete_file
 
-bot = telebot.TeleBot(import_conf("BOT", "token"))
+bot = telebot.TeleBot(import_conf("BOT", "1950929852:AAHjwJcvFYAhESN-xVzTie8r9DsldXeILkg"))
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message: types.Message):
